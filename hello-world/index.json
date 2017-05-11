@@ -16,7 +16,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
   },
   "backend": {
     "imageid": "docker"
