@@ -21,7 +21,7 @@
       "client": [
         {
           "file": "credentials.json",
-          "target": "~/.3scale/"
+          "target": "~"
         }
       ]
     }
