@@ -1,22 +1,16 @@
 {
-  "title": "My First Scenario",
-  "description": "Learning how to educate via Katacoda",
+  "title": "Hello World Scenario",
+  "description": "Your First Scenario",
+  "difficulty": "beginner",
+  "time": "2 minutes",
   "details": {
-    "steps": [
-      { "title": "Title", "text": "step1.md" },
-      { "title": "Goes", "text": "step2.md" },
-      { "title": "Here", "text": "step3.md" }
-    ],
-    "assets": {
-      "client": [
-        {
-          "file": "amp.yml",
-          "target": "~/"
-        }
-      ]
-    },
+    "steps": [{
+      "title": "Step 1 - Run Command",
+      "text": "step1.md"
+    }],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "credits": ""
     },
     "finish": {
       "text": "finish.md"
@@ -24,10 +18,9 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "showdashboard": true,
-    "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "kubernetes"
+    "imageid": "bash"
   }
 }
