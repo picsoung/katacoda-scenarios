@@ -11,7 +11,8 @@
     ],
     "intro": {
       "text": "intro.md",
-      "credits": ""
+      "credits": "",
+      "code": "setup-3scale.sh"
     },
     "finish": {
       "text": "finish.md"
