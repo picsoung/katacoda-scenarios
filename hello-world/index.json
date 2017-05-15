@@ -3,7 +3,8 @@
   "description": "Learning how to educate via Katacoda",
   "details": {
     "steps": [
-      { "title": "Title", "text": "step1.md" },
+      { "title": "Title", "text": "step1.md",
+        "code": "launch.sh"},
       { "title": "Goes", "text": "step2.md" },
       { "title": "Here", "text": "step3.md" }
     ],
