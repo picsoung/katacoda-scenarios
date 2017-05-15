@@ -5,14 +5,14 @@
   "time": "2 minutes",
   "details": {
     "steps": [
-      { "title": "Title", "text": "step1.md"},
+      { "title": "Title", "text": "step1.md",
+      "courseData": "setup-3scale.sh"},
       { "title": "Goes", "text": "step2.md" },
       { "title": "Here", "text": "step3.md" }
     ],
     "intro": {
       "text": "intro.md",
-      "credits": "",
-      "courseData": "setup-3scale.sh"
+      "credits": ""
     },
     "finish": {
       "text": "finish.md"
