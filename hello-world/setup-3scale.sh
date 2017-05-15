@@ -12,9 +12,7 @@ echo '   "service_id": 2555417742291,' >> credentials.json
 echo '   "access_token": "5ddeb96c1481b9c5482d3407f867c6c5159aafe7c5c5454e096f45703d33f9e7"' >> credentials.json
 echo '  }' >> credentials.json
 echo '}' >> credentials.json
-scp credentials.json root@host01:~/credentials.json
-
-# npm install node-3scale-cli
-# mkdir ~/.3scale/
-# cp ./credentials.json ~/.3cale/
+mkdir ~/.3scale/
+cp ./credentials.json ~/.3cale/
+npm install node-3scale-cli
 # cat ~/.3cale/credentials.json
