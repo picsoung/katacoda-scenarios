@@ -5,19 +5,10 @@
   "time": "2 minutes",
   "details": {
     "steps": [
-      { "title": "Title", "text": "step1.md",
-        "code": "launch.sh"},
+      { "title": "Title", "text": "step1.md"},
       { "title": "Goes", "text": "step2.md" },
       { "title": "Here", "text": "step3.md" }
     ],
-    "assets": {
-      "client": [
-        {
-          "file": "amp.yml",
-          "target": "~/"
-        }
-      ]
-    },
     "intro": {
       "text": "intro.md",
       "credits": ""
@@ -31,7 +22,6 @@
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
   },
   "backend": {
-    "port": 8080,
-    "imageid": "kubernetes"
+    "imageid": "node6"
   }
 }
