@@ -20,8 +20,12 @@
     "assets": {
       "client": [
         {
-          "file": "credentials.json",
-          "target": "~"
+          "file": "./assets/credentials.json",
+          "target": "~/"
+        },
+        {
+          "file": "./credentials.json",
+          "target": "~/"
         }
       ]
     }
