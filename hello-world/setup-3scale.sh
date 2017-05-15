@@ -13,6 +13,6 @@ echo '   "access_token": "5ddeb96c1481b9c5482d3407f867c6c5159aafe7c5c5454e096f45
 echo '  }' >> credentials.json
 echo '}' >> credentials.json
 mkdir ~/.3scale/
-cp ./credentials.json ~/.3cale/
-npm install node-3scale-cli
+mv credentials.json ~/.3cale/.
+# npm install node-3scale-cli
 # cat ~/.3cale/credentials.json
