@@ -16,6 +16,14 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "credentials.json",
+          "target": "~/.3scale/"
+        }
+      ]
     }
   },
   "environment": {

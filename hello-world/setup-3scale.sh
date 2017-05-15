@@ -4,6 +4,6 @@
 # 4. add member to service, application, analytics
 
 npm install node-3scale-cli
-mkdir ~/.3scale/
-cp ./credentials.json ~/.3cale/
-cat ~/.3cale/credentials.json
+# mkdir ~/.3scale/
+# cp ./credentials.json ~/.3cale/
+# cat ~/.3cale/credentials.json
