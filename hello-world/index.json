@@ -18,13 +18,9 @@
       "text": "finish.md"
     },
     "assets": {
-      "client": [
+      "host01": [
         {
-          "file": "./assets/credentials.json",
-          "target": "~/"
-        },
-        {
-          "file": "./credentials.json",
+          "file": "credentials.json",
           "target": "~/"
         }
       ]
