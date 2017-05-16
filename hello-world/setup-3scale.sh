@@ -46,22 +46,23 @@ output=$(curl -X PUT \
 accountId=$(sed -ne '/account_id/{s/.*<account_id>\(.*\)<\/account_id>.*/\1/p;q;}' <<< "$output")
 
 #add user to service
-output=$(curl -X PUT \
-  "https://commandline-admin.3scale.net/admin/api/users/${accountId}.xml" \
-  -H 'content-type: application/x-www-form-urlencoded' \
-  -d "provider_key=df8411bfaaad72f68581c7814772b474&member_permission_service_ids[]=2555417742298")
+# output=$(curl -X PUT \
+#   "https://commandline-admin.3scale.net/admin/api/users/${accountId}.xml" \
+#   -H 'content-type: application/x-www-form-urlencoded' \
+#   -d "provider_key=df8411bfaaad72f68581c7814772b474&member_permission_service_ids[]=${serviceId}")
 
-# install json parser
-npm install json
-
-#create Token
-output=$(curl -X POST \
-  "https://commandline-admin.3scale.net/admin/api/users/${accountId}/access_tokens.json?provider_key=df8411bfaaad72f68581c7814772b474" \
-  -H 'content-type: application/x-www-form-urlencoded' \
-  -d "name=threescale_cli&scopes[]=account_management&scopes[]=stats&permission=rw")
-
-accessTokenValue=`echo $output | json access_token.value`
-echo "AHAHAA${accessTokenValue}"
+#
+# # install json parser
+# npm install json
+#
+# #create Token
+# output=$(curl -X POST \
+#   "https://commandline-admin.3scale.net/admin/api/users/${accountId}/access_tokens.json?provider_key=df8411bfaaad72f68581c7814772b474" \
+#   -H 'content-type: application/x-www-form-urlencoded' \
+#   -d "name=threescale_cli&scopes[]=account_management&scopes[]=stats&permission=rw")
+#
+# accessTokenValue=`echo $output | json access_token.value`
+# echo "AHAHAA${accessTokenValue}"
 
 ## ADD PERSMISSIONS
 
