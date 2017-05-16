@@ -16,7 +16,7 @@
 # echo '}' >>  credentials.json
 # cd ~
 
-npm install -g node-3scale-cli
+# npm install -g node-3scale-cli
 KIKIRANDOM = $RANDOM
 
 # 3scale-cli services create --serviceName "DefaultAPI${KIKIRANDOM}"
