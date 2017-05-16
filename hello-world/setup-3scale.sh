@@ -61,7 +61,7 @@ output=$(curl -X POST \
   -d "name=threescale_cli&scopes[]=account_management&scopes[]=stats&permission=rw")
 
 accessTokenValue=`echo $output | json access_token.value`
-echo $accessTokenValue
+echo "AHAHAA${accessTokenValue}"
 
 ## ADD PERSMISSIONS
 
