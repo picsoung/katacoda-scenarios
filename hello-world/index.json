@@ -28,7 +28,7 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "Tab Name", "url":"commandline-admin.3scale.net"}],
+    "dashboards": [{"name": "Tsb Name", "url":"commandline-admin.3scale.net"}],
     "uilayout": "terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
   },
