@@ -4,11 +4,25 @@
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
-    "steps": [
-      { "title": "Title", "text": "step1.md"},
-      { "title": "Goes", "text": "step2.md" },
-      { "title": "Here", "text": "step3.md" }
-    ],
+    "steps": [{ 
+      "title": "Step 1 - Configure the CLI tool", 
+      "text": "configure-cli.md"
+    }, {
+      "title": "Step 2 - Integrate your service in 3scale", 
+      "text": "integrate-service.md"
+    }, {
+      "title": "Step 3 - Configure access control", 
+      "text": "access-control.md"
+    }, {
+      "title": "Step 4 - Create a user", 
+      "text": "create-user.md"
+    }, {
+      "title": "Step 5 - Test the integration", 
+      "text": "test-integration.md"
+    }, {
+      "title": "Step 6 - Let users try your API", 
+      "text": "try-api.md"
+    }],
     "intro": {
       "text": "intro.md",
       "credits": "",
