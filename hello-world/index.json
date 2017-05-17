@@ -6,22 +6,22 @@
   "details": {
     "steps": [{ 
       "title": "Step 1 - Configure the CLI tool", 
-      "text": "configure-cli.md"
+      "text": "1configure-cli.md"
     }, {
       "title": "Step 2 - Integrate your service in 3scale", 
-      "text": "integrate-service.md"
+      "text": "2integrate-service.md"
     }, {
       "title": "Step 3 - Configure access control", 
-      "text": "access-control.md"
+      "text": "3access-control.md"
     }, {
       "title": "Step 4 - Create a user", 
-      "text": "create-user.md"
+      "text": "4create-user.md"
     }, {
       "title": "Step 5 - Test the integration", 
-      "text": "test-integration.md"
+      "text": "5test-integration.md"
     }, {
       "title": "Step 6 - Let users try your API", 
-      "text": "try-api.md"
+      "text": "6try-api.md"
     }],
     "intro": {
       "text": "intro.md",
