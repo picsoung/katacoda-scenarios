@@ -1,6 +1,6 @@
 {
-  "title": "Hello World Scenario",
-  "description": "Your First Scenario",
+  "title": "Getting started with 3scale using the CLI",
+  "description": "Learn how to integrate your API services with 3scale API Management Platform, from importing an API definition to publishing your service and letting people try it out.",
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
