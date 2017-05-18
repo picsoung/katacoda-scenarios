@@ -20,7 +20,7 @@
   },
   "environment": {
     "showdashboard": true,
-    "uilayout": "terminal",
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "node6"
