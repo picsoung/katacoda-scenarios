@@ -23,7 +23,7 @@ serviceId=$(sed -ne '/service_id/{s/.*<service_id>\(.*\)<\/service_id>.*/\1/p;q;
 output=$(curl -X POST \
   https://commandline-admin.3scale.net/admin/api/users.xml \
   -H 'content-type: application/x-www-form-urlencoded' \
-  -d "provider_key=df8411bfaaad72f68581c7814772b474&email=cli_user${RANDOMID}%403scale.net&password=password&username=cli_useruser${RANDOMID}@3scale.net")
+  -d "provider_key=df8411bfaaad72f68581c7814772b474&email=cli_user${RANDOMID}%403scale.net&password=password&username=cli_user${RANDOMID}@3scale.net")
 
 accountId=$(sed -ne '/id/{s/.*<id>\(.*\)<\/id>.*/\1/p;q;}' <<< "$output")
 #
@@ -38,7 +38,7 @@ accountId=$(sed -ne '/account_id/{s/.*<account_id>\(.*\)<\/account_id>.*/\1/p;q;
 #add user to service
 output=$(curl -X PUT \
   "https://commandline-admin.3scale.net/admin/api/users/${accountId}.xml" \
-  -H 'content-type: application/x-www-form-urlencoded' \
+  -H "content-type: application/x-www-form-urlencoded" \
   -d "provider_key=df8411bfaaad72f68581c7814772b474&member_permission_service_ids[]=${serviceId}")
 
 #
