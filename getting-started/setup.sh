@@ -1,4 +1,5 @@
-docker pull jkilbride/node-npm-alpine
-docker run --rm jkilbride/node-npm-alpine:7 node --version v7.10.0
+sudo apt-get update
+sudo apt-get install nodejs
+sudo apt-get install npm
 
 RANDOMID=$RANDOM
