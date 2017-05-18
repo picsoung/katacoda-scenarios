@@ -11,7 +11,7 @@ Try creating a couple of application plans called *internal* and *external* resp
 
 The application plans you just created should show as published in the UI.
 
-![Application plans](/img/app-plans.png)
+![Application plans](./img/app-plans.png)
 
 ## Task 2
 
@@ -21,7 +21,7 @@ We can achieve that by applying rate limits by method. To do so, visit your *Adm
 
 Find the **Hits** metric and click on *Limits* and then on *New usage limit*.
 
-![Application plans](/img/rate-limits.png)
+![Application plans](./img/rate-limits.png)
 
 Apply any limits you want, for example, 10 calls per minute, and save. Don't forget to click on *Update Application plan* to save the changes.
 
