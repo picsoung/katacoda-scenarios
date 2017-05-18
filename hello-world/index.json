@@ -1,14 +1,28 @@
 {
-  "title": "Hello World Scenario",
-  "description": "Your First Scenario",
+  "title": "Getting started with 3scale using the CLI",
+  "description": "Learn how to integrate your API services with 3scale API Management Platform, from importing an API definition to publishing your service and letting people try it out.",
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
-    "steps": [
-      { "title": "Title", "text": "step1.md"},
-      { "title": "Goes", "text": "step2.md" },
-      { "title": "Here", "text": "step3.md" }
-    ],
+    "steps": [{ 
+      "title": "Step 1 - Configure the CLI tool", 
+      "text": "1configure-cli.md"
+    }, {
+      "title": "Step 2 - Integrate your service in 3scale", 
+      "text": "2integrate-service.md"
+    }, {
+      "title": "Step 3 - Configure access control", 
+      "text": "3access-control.md"
+    }, {
+      "title": "Step 4 - Create a user", 
+      "text": "4create-user.md"
+    }, {
+      "title": "Step 5 - Test the integration", 
+      "text": "5test-integration.md"
+    }, {
+      "title": "Step 6 - Let users try your API", 
+      "text": "6try-api.md"
+    }],
     "intro": {
       "text": "intro.md",
       "credits": "",
