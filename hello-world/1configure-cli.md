@@ -21,4 +21,4 @@ Next, you can check if it was successful, for example, get all services in the i
 
 `3scale-cli services list`{{execute}}
 
-To confirm if the information is correct, select the ‘Admin Portal’ tab and go to **API** where you can see all your services (a services is created by default when you create an online account).
+You should see at least one service and its id, name, etc.
