@@ -1,0 +1,28 @@
+{
+  "title": "Getting Started",
+  "description": "Your First Scenario",
+  "difficulty": "beginner",
+  "time": "2 minutes",
+  "details": {
+    "steps": [
+      { "title": "Title", "text": "step1.md"},
+      { "title": "Goes", "text": "step2.md" },
+      { "title": "Here", "text": "step3.md" }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "",
+      "code": "setup.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "uilayout": "terminal",
+  },
+  "backend": {
+    "imageid": "node6"
+  }
+}
