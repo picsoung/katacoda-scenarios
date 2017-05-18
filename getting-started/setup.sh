@@ -7,7 +7,7 @@ npm install node-3scale-cli
 # # install json parser
 npm install json
 
-RANDOMID = $RANDOM
+RANDOMID=$RANDOM
 
 # 3scale-cli services create --serviceName "DefaultAPI${RANDOMID}"
 
