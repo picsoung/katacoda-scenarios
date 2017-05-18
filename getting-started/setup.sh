@@ -3,10 +3,10 @@
 # 3. activate member
 # 4. add member to service, application, analytics
 
-npm install -g node-3scale-cli
+npm install node-3scale-cli
 # # install json parser
 npm install json
-sleep 2m
+
 RANDOMID = $RANDOM
 
 # 3scale-cli services create --serviceName "DefaultAPI${RANDOMID}"
