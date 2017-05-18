@@ -27,7 +27,7 @@ Your host will be kept private and won’t be accessible from the outside. Your 
 
 You will obtain two public URLs, one for your staging environment and another one for your production environment:
 
-![API public hosts](/img/public-hosts.png)
+![API public hosts](./img/public-hosts.png)
 
 Don’t forget to save your changes in staging before moving to the next task.
 
@@ -40,6 +40,6 @@ In this case, since our echo API returns back anything you request, we'll just u
 
 If you go back to your Admin Portal, you'll see how all of the endpoints have been added as methods in the *Definition* page, and how the mapping rules have been created and are showing in the *Integration* page.
 
-![Mapping rules](/img/mapping-rules.png)
+![Mapping rules](./img/mapping-rules.png)
 
 Time to configure access to our service!
