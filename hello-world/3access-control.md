@@ -17,7 +17,7 @@ The application plans you just created should show as published in the UI.
 
 Whereas we want to give internal developers full access to our API, we may want to limit the number of calls that the external developers can make.
 
-We can achieve that by applying rate limits by method. To do so, visit your *Admin Portal > APIs > [your API] > Application plans* and click on the plan called **external**.
+We can achieve that by applying rate limits. To do so, visit your *Admin Portal > APIs > [your API] > Application plans* and click on the plan called **external**.
 
 Find the **Hits** metric and click on *Limits* and then on *New usage limit*.
 
