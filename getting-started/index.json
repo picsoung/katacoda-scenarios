@@ -12,7 +12,8 @@
     "intro": {
       "text": "intro.md",
       "credits": "",
-      "code": "setup.sh"
+      "courseData": "env-init.sh",
+      "code": "set-env.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -20,9 +21,10 @@
   },
   "environment": {
     "showdashboard": true,
-    "uilayout": "terminal"
+    "dashboard":"Dashboard",
+    "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "node6"
+    "imageid": "openshift-client"
   }
 }
