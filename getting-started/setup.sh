@@ -1,2 +1,2 @@
-docker pull jkilbride/node-npm-alpine
+docker pull node
 RANDOMID=$RANDOM
