@@ -1,2 +1,2 @@
-docker pull node
+docker pull mkenney/npm
 RANDOMID=$RANDOM
