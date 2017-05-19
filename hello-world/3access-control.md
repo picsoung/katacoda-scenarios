@@ -1,4 +1,4 @@
-In this step we're going to configure two different types of access for our different types of users, let's say internal and external developers.
+In this step, we're going to configure two different types of access for our different types of users, let's say internal and external developers.
 
 The way to configure different types of access is by creating multiple **Application plans**.
 

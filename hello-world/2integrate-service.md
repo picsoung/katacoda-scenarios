@@ -21,7 +21,7 @@ First, log into your 3scale Admin portal:
 - **Password**: password
 
 Then go to *APIs > Overview > Integration* and add your host there, in our case:
-`echo-api.3scale.net`{{execute}}
+`echo-api.3scale.net`
 
 Your host will be kept private and won’t be accessible from the outside. Your partners and developers will use the public host which in this case is given to you because we’re using APIcast hosted. 
 
@@ -34,9 +34,9 @@ Don’t forget to save your changes in staging before moving to the next task.
 ## Task 3
 Now that we have the basics of our service, let’s create some methods and mapping rules. These can be created manually or automatically by importing an API definition (json file). 
 
-In this case, since our echo API returns back anything you request, we'll just use the Petstore API spec to automatically populate our service with some mapping rules. You can use RAML or Open API / Swagger specs, we'll use Open API / Swagger. And finally, we want to populate our existing service, so we'll have to specify the service id in the command like this:
+In this case, we have the Echo API definition - its format is Open API - saved in the *assets* folder and that is what we're going to use. We want to populate our existing service, so we'll have to specify the service id in the command like this:
 
-`3scale-cli import swagger create -f https://raw.githubusercontent.com/OAI/OpenAPI-Specification/master/examples/v2.0/json/petstore.json -s <service_id>`
+`3scale-cli import swagger create -f ../assets/echo.json -s <service_id>`
 
 If you go back to your Admin Portal, you'll see how all of the endpoints have been added as methods in the *Definition* page, and how the mapping rules have been created and are showing in the *Integration* page.
 
