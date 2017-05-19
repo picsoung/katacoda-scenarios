@@ -27,7 +27,7 @@ Your host will be kept private and won’t be accessible from the outside. Your 
 
 You will obtain two public URLs, one for your staging environment and another one for your production environment:
 
-![API public hosts](./img/public-hosts.png)
+![API public hosts](/img/public-hosts.png)
 
 Don’t forget to save your changes in staging before moving to the next task.
 
