@@ -1,0 +1,2 @@
+echo $RANDOMID
+echo "AHAHAHA"

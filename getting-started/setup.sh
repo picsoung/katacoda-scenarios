@@ -4,10 +4,10 @@
 # 4. add member to service, application, analytics
 
 export PATH=$PATH:./node_modules/.bin/
-
-npm install node-3scale-cli
-# # install json parser
-npm install json
+# 
+# npm install node-3scale-cli
+# # # install json parser
+# npm install json
 
 RANDOMID=$RANDOM
 
