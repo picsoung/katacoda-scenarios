@@ -41,9 +41,8 @@ output=$(curl -X PUT \
 
 #add user to service
 output=$(curl -X PUT \
-  "https://commandline-admin.3scale.net/admin/api/users/${accountId}.xml?provider_key=df8411bfaaad72f68581c7814772b474" \
-  -H "content-type: application/x-www-form-urlencoded" \
-  -d "member_permission_service_ids[]=${serviceId}&member_permission_ids[]=monitoring&member_permission_ids[]=partners&member_permission_ids[]=plans") >/dev/null 2>&1
+  "https://commandline-admin.3scale.net/admin/api/users/${accountId}.xml?access_token=e95df99686f9347d5484dd1352c65a35a6c961e9d9570f1c4881aba9cc715d1c" \
+  -d "member_permission_ids[]=monitoring&member_permission_ids[]=partners&member_permission_ids[]=plans&member_permission_service_ids[]=${serviceId}") >/dev/null 2>&1
 
   # url -X PUT \
   # 'https://commandline-admin.3scale.net/admin/api/users/2445582099561.xml?access_token=e95df99686f9347d5484dd1352c65a35a6c961e9d9570f1c4881aba9cc715d1c' \
@@ -59,10 +58,19 @@ accessTokenValue=`echo $output | json access_token.value`
 
 clear
 
-echo "\u001b[32m Welcome to 3scale tutorial"
-echo "Your 3scale username is \u001B[34m cli_user${RANDOMID}@3scale.net \u001B[0m" echo "Your password is \u001B[34m password\u001B[0m"
-echo "The access_token is \u001B[34m ${accessTokenValue} \u001B[0m"
-echo "\u001b[m"
+declare -A colors
+color=${colors[$input_color]}
+colors[Green]='\033[0;32m'        # Green
+colors[On_Blue]='\033[44m'        # Blue
+colors[White]='\033[0;37m'        # White
+green=${colors[Green]}
+on_blue=${colors[On_Blue]}
+white=${colors[White]}
+
+echo -e "${green} Welcome to 3scale tutorial"
+echo -e "${green} Your 3scale username is ${on_blue}cli_user${RANDOMID}@3scale.net"
+echo -e "${green} Your password is${on_blue}password"
+echo -e "${green} The access_token is ${on_blue} ${accessTokenValue}"
 ## ADD PERSMISSIONS
 
 # mv >>  credentials.json ~/.3cale/.
