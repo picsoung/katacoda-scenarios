@@ -11,8 +11,8 @@
     ],
     "intro": {
       "text": "intro.md",
-      "credits": "",
       "courseData": "setup.sh",
+      "credits": "",
       "code":"display.sh"
     },
     "finish": {
