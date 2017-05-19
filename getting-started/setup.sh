@@ -3,13 +3,13 @@
 # 3. activate member
 # 4. add member to service, application, analytics
 
-export PATH=$PATH:./node_modules/.bin/
+export PATH=$PATH:./node_modules/.bin/ >/dev/null 2>&1
 #
 npm install node-3scale-cli >/dev/null 2>&1
 # # # install json parser
-npm install json
+npm install json >/dev/null 2>&1
 
-RANDOMID=$RANDOM
+RANDOMID=$RANDOM >/dev/null 2>&1
 
 # 3scale-cli services create --serviceName "DefaultAPI${RANDOMID}"
 #
@@ -35,7 +35,7 @@ output=$(curl -X PUT \
   -H 'content-type: application/x-www-form-urlencoded' \
   -d "provider_key=df8411bfaaad72f68581c7814772b474") >/dev/null 2>&1
 
-accountId=$(sed -ne '/account_id/{s/.*<account_id>\(.*\)<\/account_id>.*/\1/p;q;}' <<< "$output") >/dev/null 2>&1
+# accountId=$(sed -ne '/account_id/{s/.*<account_id>\(.*\)<\/account_id>.*/\1/p;q;}' <<< "$output") >/dev/null 2>&1
 
 #add user to service
 output=$(curl -X PUT \
