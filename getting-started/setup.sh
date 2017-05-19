@@ -67,12 +67,8 @@ green=${colors[Green]}
 on_blue=${colors[On_Blue]}
 white=${colors[White]}
 
-echo -e "${green} Welcome to 3scale tutorial"
-echo -e "${green} Your 3scale username is ${on_blue}cli_user${RANDOMID}@3scale.net"
-echo -e "${green} Your password is${on_blue}password"
-echo -e "${green} The access_token is ${on_blue} ${accessTokenValue}"
-## ADD PERSMISSIONS
+clear
 
-# mv >>  credentials.json ~/.3cale/.
-# npm install node-3scale-cli
-# cat ~/.3cale/credentials.json
+message="${green} Welcome to 3scale tutorial \n ${green} Your 3scale username is ${on_blue}cli_user${RANDOMID}@3scale.net \n ${green} Your password is ${on_blue}password \n ${green} The access_token is ${on_blue}${accessTokenValue}" >> /dev/null
+
+echo $message
