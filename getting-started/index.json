@@ -12,26 +12,11 @@
     "intro": {
       "text": "intro.md",
       "credits": "",
-      "code": "env-init.sh",
-      "codeData": "set-env.sh"
+      "code": "setup.sh"
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-    "client": [
-      {
-        "file": "3scale-cli-linux",
-        "target": "/usr/bin/"
-      }
-    ],
-    "host01": [
-      {
-        "file": "3scale-cli-linux",
-        "target": "/usr/bin/"
-      }
-    ]
-  }
+    }
   },
   "environment": {
     "showdashboard": true,
@@ -39,6 +24,6 @@
     "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "node6"
+    "imageid": "docker-node"
   }
 }
