@@ -3,6 +3,8 @@
 # 3. activate member
 # 4. add member to service, application, analytics
 
+clear
+
 export PATH=$PATH:./node_modules/.bin/ >/dev/null 2>&1
 #
 npm install node-3scale-cli >/dev/null 2>&1
@@ -53,10 +55,14 @@ output=$(curl -X POST \
   -H 'content-type: application/x-www-form-urlencoded' \
   -d "name=threescale_cli&scopes[]=account_management&scopes[]=stats&permission=rw") >/dev/null 2>&1
 
-echo $output
 accessTokenValue=`echo $output | json access_token.value`
-echo "AHAHAA${accessTokenValue}"
 
+clear
+
+echo "\u001b[32m Welcome to 3scale tutorial"
+echo "Your 3scale username is \u001B[34m cli_user${RANDOMID}@3scale.net \u001B[0m" echo "Your password is \u001B[34m password\u001B[0m"
+echo "The access_token is \u001B[34m ${accessTokenValue} \u001B[0m"
+echo "\u001b[m"
 ## ADD PERSMISSIONS
 
 # mv >>  credentials.json ~/.3cale/.
