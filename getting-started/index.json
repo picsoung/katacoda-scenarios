@@ -12,7 +12,8 @@
     "intro": {
       "text": "intro.md",
       "credits": "",
-      "codeData": "setup.sh"
+      "codeData": "setup.sh",
+      "code":"display.sh"
     },
     "finish": {
       "text": "finish.md"
