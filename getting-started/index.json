@@ -6,8 +6,7 @@
   "details": {
     "steps": [
       { "title": "Title", "text": "step1.md",
-            "courseData": "setup.sh",
-      "code":"display.sh"},
+            "code": "setup.sh"},
       { "title": "Goes", "text": "step2.md" },
       { "title": "Here", "text": "step3.md" }
     ],
