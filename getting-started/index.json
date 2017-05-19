@@ -24,6 +24,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "docker-node"
+    "imageid": "node6"
   }
 }
