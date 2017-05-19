@@ -60,15 +60,19 @@ clear
 
 declare -A colors
 color=${colors[$input_color]}
-colors[Green]='\033[0;32m'        # Green
-colors[On_Blue]='\033[44m'        # Blue
-colors[White]='\033[0;37m'        # White
+colors[Green]='\033[0;32m'
+colors[On_Blue]='\033[44m'
+colors[White]='\033[0;37m'
 green=${colors[Green]}
 on_blue=${colors[On_Blue]}
 white=${colors[White]}
 
 clear
 
-message="${green} Welcome to 3scale tutorial \n ${green} Your 3scale username is ${on_blue}cli_user${RANDOMID}@3scale.net \n Your 3scale ID is ${on_blue}commandline \n ${green} Your password is ${on_blue}password \n ${green} The access_token is ${on_blue}${accessTokenValue}" >> /dev/null
+message="${green}Welcome to 3scale tutorial \n\n"
+message=$message"${green}Your 3scale username is ${on_blue}cli_user${RANDOMID}@3scale.net${white}\n\n"
+message=$message"${green} Your 3scale ID is ${on_blue}commandline${white}\n\n"
+message=$message"${green} Your password is ${on_blue}password${white}\n\n"
+message=$message"${green} The access_token is ${on_blue}${accessTokenValue}" >> /dev/null
 
-echo $message
+echo -e $message
