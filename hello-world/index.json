@@ -4,29 +4,29 @@
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
-    "steps": [{ 
-      "title": "Step 1 - Configure the CLI tool", 
+    "steps": [{
+      "title": "Step 1 - Configure the CLI tool",
       "text": "1configure-cli.md"
     }, {
-      "title": "Step 2 - Integrate your service in 3scale", 
+      "title": "Step 2 - Integrate your service in 3scale",
       "text": "2integrate-service.md"
     }, {
-      "title": "Step 3 - Configure access control", 
+      "title": "Step 3 - Configure access control",
       "text": "3access-control.md"
     }, {
-      "title": "Step 4 - Create a user", 
+      "title": "Step 4 - Create a user",
       "text": "4create-user.md"
     }, {
-      "title": "Step 5 - Test the integration", 
+      "title": "Step 5 - Test the integration",
       "text": "5test-integration.md"
     }, {
-      "title": "Step 6 - Let users try your API", 
+      "title": "Step 6 - Let users try your API",
       "text": "6try-api.md"
     }],
     "intro": {
       "text": "intro.md",
       "credits": "",
-      "code": "setup-3scale.sh"
+      "codeData": "setup-3scale.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -36,7 +36,7 @@
     "showdashboard": true,
     "dashboards": [{"name": "Tab Name", "url":"commandline-admin.3scale.net"}],
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    "uimessage1": "\u001b[32mWelcome to 3scale tutorial \n Your 3scale username is cli_user2788@3scale.net \n Your password is password \n The access_token is e771abf7b24ac41edda469b5418ae1b691b0275151731a5a3c61bc8a4fa67804\n`\u001b[m\r\n"
   },
   "backend": {
     "imageid": "node6"
