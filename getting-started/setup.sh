@@ -69,10 +69,10 @@ white=${colors[White]}
 
 clear
 
-message="${green}Welcome to 3scale tutorial \n\n"
-message=$message"${green}Your 3scale username is ${on_blue}cli_user${RANDOMID}@3scale.net${white}\n\n"
-message=$message"${green} Your 3scale ID is ${on_blue}commandline${white}\n\n"
-message=$message"${green} Your password is ${on_blue}password${white}\n\n"
-message=$message"${green} The access_token is ${on_blue}${accessTokenValue}" >> /dev/null
+message='${green}Welcome to 3scale tutorial \n\n' >> /dev/null
+message=$message'${green}Your 3scale username is ${on_blue}cli_user${RANDOMID}@3scale.net${white}\n\n' >> /dev/null
+message=$message'${green} Your 3scale ID is ${on_blue}commandline${white}\n\n' >> /dev/null
+message=$message'${green} Your password is ${on_blue}password${white}\n\n' >> /dev/null
+message=$message'${green} The access_token is ${on_blue}${accessTokenValue}' >> /dev/null
 
 echo -e $message
