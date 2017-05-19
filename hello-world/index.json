@@ -26,7 +26,7 @@
     "intro": {
       "text": "intro.md",
       "credits": "",
-      "codeData": "setup-3scale.sh"
+      "code": "setup-3scale.sh"
     },
     "finish": {
       "text": "finish.md"
