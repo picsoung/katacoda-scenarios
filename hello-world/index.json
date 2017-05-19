@@ -26,7 +26,7 @@
     "intro": {
       "text": "intro.md",
       "credits": "",
-      "code": "setup-3scale.sh"
+      "codeData": "setup-3scale.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -36,7 +36,7 @@
     "showdashboard": true,
     "dashboards": [{"name": "Tab Name", "url":"commandline-admin.3scale.net"}],
     "uilayout": "terminal",
-    "uimessage1": "Welcome to 3scale tutorial \n Your 3scale username is cli_user2788@3scale.net \n Your password is password \n The access_token is e771abf7b24ac41edda469b5418ae1b691b0275151731a5a3c61bc8a4fa67804\n"
+    "uimessage1": "\u001b[32m Welcome to 3scale tutorial, Your 3scale username is \u001B[34m cli_user2788@3scale.net \u001B[0m \n Your password is \u001B[34m password\u001B[0m \n The access_token is \u001B[34m e771abf7b24ac41edda469b5418ae1b691b0275151731a5a3c61bc8a4fa67804 \u001B[0m \n \u001b[m"
   },
   "backend": {
     "imageid": "node6"
