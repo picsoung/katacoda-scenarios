@@ -16,9 +16,9 @@ By default, we’re going to be using APIcast hosted and API keys our authentica
 
 First, log into your 3scale Admin portal:
 
-URL: [https://commandline-admin.3scale.net](https://commandline-admin.3scale.net)
-Usename: It was created at the beginning of the tutorial, you’ll find it in your terminal
-Password: password
+- **URL**: [https://commandline-admin.3scale.net](https://commandline-admin.3scale.net)
+- **Usename**: It was created at the beginning of the tutorial, you’ll find it in your termina
+- **Password**: password
 
 Then go to *APIs > Overview > Integration* and add your host there, in our case:
 `echo-api.3scale.net`{{execute}}
