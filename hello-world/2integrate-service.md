@@ -10,7 +10,7 @@ To see the id of your service using the CLI, if you didn’t do it in the previo
 Save the id of the service, you'll need it in task 3.
 
 ## Task 2
-The next step is to indicate the private host of your API. 
+The next step is to indicate the private host of your API.
 
 By default, we’re going to be using APIcast hosted and API keys our authentication method. In real life, you could choose to change these from *Integration > Settings*.
 
@@ -23,16 +23,16 @@ First, log into your 3scale Admin portal:
 Then go to *APIs > Overview > Integration* and add your host there, in our case:
 `echo-api.3scale.net`
 
-Your host will be kept private and won’t be accessible from the outside. Your partners and developers will use the public host which in this case is given to you because we’re using APIcast hosted. 
+Your host will be kept private and won’t be accessible from the outside. Your partners and developers will use the public host which in this case is given to you because we’re using APIcast hosted.
 
 You will obtain two public URLs, one for your staging environment and another one for your production environment:
 
-![API public hosts](../images/public-hosts.png)
+![API public hosts](./assets/public-hosts.png)
 
 Don’t forget to save your changes in staging before moving to the next task.
 
 ## Task 3
-Now that we have the basics of our service, let’s create some methods and mapping rules. These can be created manually or automatically by importing an API definition (json file). 
+Now that we have the basics of our service, let’s create some methods and mapping rules. These can be created manually or automatically by importing an API definition (json file).
 
 In this case, we have the Echo API definition - its format is Open API - saved in the *assets* folder and that is what we're going to use. We want to populate our existing service, so we'll have to specify the service id in the command like this:
 
