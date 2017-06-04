@@ -15,7 +15,7 @@ For that, go to *Developers* and click on `+ Create`. Let's call him `Chris` (in
 
 Now clic on `n Applications`.
 
-![Application plans](../assets/applications.png)
+![Application plans](./assets/applications.png)
 
 You'll see how at least one application has been created. 3scale lets you configure different sign up flows so when a new developer registers they can get access to one or multiple servcies with one or multiple applications (and different types of plans). We're not going to cover setting up different sign up flows in this tutorial.
 
@@ -25,15 +25,8 @@ For the purpose of this tutorial, we're going to create a new application and gi
 
 Click on `+ Create Application`. In the *Application plan** dropdown, select the *internal* plan under the *Echo API* service.
 
-![New application](../assets/new-app.png)
+![New application](./assets/new-app.png)
 
 Save your changes.
 
 Alright, I think Chris is ready to try out our API!
-
-
-
-
-
-
-
