@@ -26,11 +26,14 @@
     "intro": {
       "text": "intro.md",
       "credits": "",
-      "code": "setup-3scale.sh"
+      "code": "set-env.sh"
     },
     "finish": {
       "text": "finish.md"
-    }
+    },
+    "assets": {
+			"client": [{"file": "setup-3scale.sh", "target": "/home/scrapbook/.bin/", "chmod": "+x"}]
+		}
   },
   "environment": {
     "showdashboard": true,
