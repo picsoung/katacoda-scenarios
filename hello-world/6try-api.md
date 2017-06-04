@@ -12,7 +12,7 @@ Go to *APIs > ActiveDocs* and see how the ActiveDocs have been created.
 
 Next is to specify the proper host in our docs. Go find your staging public URL in *APIs > Integration*.
 
-![Public base URL](../images/staging-public-base-url.png)
+![Public base URL](./assets/staging-public-base-url.png)
 
 Copy the staging URL and paste it in your ActiveDocs: *APIs > ActiveDocs > [your doc] > Edit*:
 
@@ -26,7 +26,7 @@ Next we're going to publish this in our developer portal. 3scale comes with an o
 
 Go to *Developer Portal*, search for a page called `Documentation` and click on it to edit:
 
-![Publish ActiveDocs](../images/activedocs.png)
+![Publish ActiveDocs](./assets/activedocs.png)
 
 Edit the following line of the code adding the system name of your ActiveDocs. You can find it in your terminal, it was printed when you created it:
 

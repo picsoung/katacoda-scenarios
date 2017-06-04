@@ -40,6 +40,6 @@ In this case, we have the Echo API definition - its format is Open API - saved i
 
 If you go back to your Admin Portal, you'll see how all of the endpoints have been added as methods in the *Definition* page, and how the mapping rules have been created and are showing in the *Integration* page.
 
-![Mapping rules](../images/mapping-rules.png)
+![Mapping rules](./assets/mapping-rules.png)
 
 Time to configure access to our service!

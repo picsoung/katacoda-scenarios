@@ -1,1 +1,1 @@
-~/.launch.sh
+setup-3scale.sh
